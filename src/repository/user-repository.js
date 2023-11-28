@@ -41,7 +41,7 @@ class UserRepository {
 
     async updateUser(userId, data){
         try {
-            const user = await User.findByPk(cityId);
+            const user = await User.findByPk(userId);
             user.name = data.name;
             await user.save();
             return user;
