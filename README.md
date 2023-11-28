@@ -28,7 +28,7 @@
 
 
 ## Setup and run
-- Clone the project `` in your local machine.
+- Clone the project `https://github.com/BibekRegmi9/Backend-Assignment.git` in your local machine.
 - Run `npm install` inside the project root directory.
 - Create a `.env` file and add `PORT=3000` if not already exists.
 - Inside the `src/config` folder edit file `config.json` and then add your Mysql Database `name` and `password`. 
