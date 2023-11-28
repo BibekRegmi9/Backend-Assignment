@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 
 
 const app = express();
-const PORT = 3000;
+const {PORT} = require('./config/serverConfig');
 
 
 const prepareAndStartServer = () => {
