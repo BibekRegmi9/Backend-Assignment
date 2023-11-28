@@ -2,7 +2,7 @@ const {User} = require('../models/index');
 
 class UserRepository {
     
-    async create(data){
+    async createUser(data){
         try {
             const user = await User.create(data);
             return user;
@@ -13,7 +13,7 @@ class UserRepository {
     }
 
 
-    async destroy(userId){
+    async deleteUser(userId){
         try {
             await User.destroy({
                 where: {
