@@ -27,14 +27,16 @@
 
 
 
-## Setup and run
+# Project Setup and run
 - Clone the project `https://github.com/BibekRegmi9/Backend-Assignment.git` in your local machine.
 - Run `npm install` inside the project root directory.
 - Create a `.env` file and add `PORT=3000` if not already exists.
 - Inside the `src/config` folder edit file `config.json` and then add your Mysql Database `name` and `password`. 
 - Once you've added your db config as listed above, go to the src folder from your terminal and execute `npx sequelize db:create`. It will create the database in your system.
 - Then migrate the model, by executing the  command `npx sequelize db:migrate`
-- Finally you can start CRUD operation in your `localhost`.
+- Execute `npm start` to start the server.
+- Download `postman` to test the API.
+- Finally you can start CRUD operation in your `localhost:3000/user` using `postman`.
 - You can see `API DOCS` for guidance [Api Doc](https://documenter.getpostman.com/view/20581499/2s9YeEdsg3)
 
 
